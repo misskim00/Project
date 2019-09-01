@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Database Design</title>
+    <link rel="stylesheet" href="themes/database.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <script src="jquery-1.12.1.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+        <div data-role="page" id="home">
+                <div data-role="header">
+                    <h1>DATABASE DESIGN</h1>
+                    <h2>SQL</h2>
+                </div>
+                <div data-role="main" class="ui-content">
+                    <p align="center">
+                    <h3>Welcome To Database World</h3>
+                    <p>Database Design</p>
+                    <p>DFC 2083</p>
+                    <p>Please Make sure Your Code and Subject Correctly</p>
+                    <br><img src="blue_style.gif"></br>
+                    </p>
+                </div>
+                <div data-role="footer">
+                    <div data-role="navbar">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#introsql">Introduction of SQL</a></li>
+                            <li><a href="#datatype">Data Type SQL</a></li>
+                            <li><a href="#typesql">Type Of SQL</a></li>
+                            <li><a href="#function">Function Of SQL</a></li>
+                            <li><a href="#question1">Quiz</a></li>
+                            <li><a href="#congrats">Congrats</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        <div data-role="page" id="introsql">
+                <div data-role="header">
+                    <h1>DATABASE DESIGN</h1>
+                    <h2>SQL</h2>
+                </div>
+                <div data-role="main" class="ui-content">
+                            <p>
+                                <strong>Meaning Of SQL</strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    Structured Query Language
+                                </li>
+                                <li>
+                                    Create,Maintain and Retrieve the relational Database
+                                </li>
+                            </ul>
+                            <p>
+                                <br><strong>Relational Database</strong></br>
+                            </p>
+                            <p>
+                                <ul>
+                                <li>
+                                the data is stored as well as retrieved in the form of relations (tables)
+                                </li>
+                                </ul>
+                            </p>       
+                </div>
+                <div data-role="footer">
+                        <div data-role="navbar">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#introsql">Introduction of SQL</a></li>
+                                <li><a href="#datatype">Data Type SQL</a></li>
+                                <li><a href="#typesql">Type Of SQL</a></li>
+                                <li><a href="#function">Function Of SQL</a></li>
+                                <li><a href="#question1">Quiz</a></li>
+                                <li><a href="#congrats">Congrats</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+        
+            <div data-role="page" id="datatype">
+                    <div data-role="header">
+                        <h1>DFC 2083 DATABASE DESIGN</h1>
+                        <h2>SQL</h2>
+                    </div>
+                    <div data-role="main" class="ui-content">
+                            <h3 align="center">
+                                    SQL Data Type
+                            </h3>
+                                    <strong>Numeric data types.</strong>
+                                <p>
+                                    <ul>
+                                        ° Bit
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Tinyint
+                                    </ul>
+                                <p>
+                                    <ul>
+                                        ° Smallint
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Int
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Bigint
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Decimal
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Numberic
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Float
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Real
+                                    </ul>
+                                </p>
+                                    <br><strong>Date and Time data types.</strong></br>
+                                <p>
+                                    <ul>
+                                        ° Date
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Time
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Datetime
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Timestamp
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Year
+                                    </ul>
+                                </p>
+
+                                <br><strong>Character and String data.</strong></br>
+                                <p>
+                                    <ul>
+                                        ° Char
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Varchar
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Varchar (max)
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Text
+                                    </ul>
+                                </p>
+                                    <br><strong>Unicode character string data types</strong></br>
+                                <p>
+                                    <ul>
+                                        ° NChar
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° NVarchar
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° NVarchar (max)
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° NText
+                                    </ul>
+                                </p>
+                                        <br><strong>Binary data types.</strong></br>
+                                <p>
+                                    <ul>
+                                        ° Binary
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Varbinary
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Varbinary (max)
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Image
+                                    </ul>
+                                </p>
+                                        <br><strong>Miscellaneous data types.</strong></br>
+                                <p>
+                                    <ul>
+                                        ° Clob
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° Blob
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° XML
+                                    </ul>
+                                </p>
+                                <p>
+                                    <ul>
+                                        ° JSON
+                                    </ul>
+                                </p>
+                    </div>
+                    <div data-role="footer">
+                            <div data-role="navbar">
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#introsql">Introduction of SQL</a></li>
+                                    <li><a href="#datatype">Data Type SQL</a></li>
+                                    <li><a href="#typesql">Type Of SQL</a></li>
+                                    <li><a href="#function">Function Of SQL</a></li>
+                                    <li><a href="#question1">Quiz</a></li>
+                                    <li><a href="#congrats">Congrats</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                <div data-role="page" id="typesql">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                                <h3 align="center">
+                                        Types of SQL
+                                </h3>
+                                    <p>
+                                        <strong>Data Definition Language (DDL) </strong>-
+                                        <em>
+                                            commands to create database objects such as tables, indexes, and views.
+                                        </em>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                CREATE
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                ALTER
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                DROP
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <br><strong>Data manipulation Language (DML) </strong>– <em>commands toquerying and modify data.</em></br>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                SELECT
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                INSERT
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                UPDATE
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                DELETE
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <br><strong>Transaction control language (TCL) </strong>-
+                                        <em>
+                                            commands are used to manage transactions<strong> </strong>in the
+                                            database.
+                                        </em></br>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                BEGIN
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                TRAN
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                COMMIT
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                ROLLBACK
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <br><strong>Data control language (DCL)</strong> – <em>commands for security permission<strong> </strong>in a database.</em></br>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                GRANT
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                REVOKE
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <br><strong>DDL</strong></br>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Stands for <strong>Data Definition Language</strong>.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o DDL commands to <strong>create the structure of the database </strong>and
+                                        the other database objects.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Its commands are <strong>auto-committed</strong>.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o The <strong>changes are saved </strong>in the database <strong>permanently</strong>.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <br><strong>Truncate</strong></br>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o DDL Command
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Executed using table lock. Whole table is locked while removing the
+                                        records.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Removes all rows from a table.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Minimal logging in transaction log, so it is performance wise <strong>faster</strong>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Cannot be rolled back
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <br><strong>Drop</strong></br>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o DDL Command
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o DROP command removes a table from database
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Tables rows, indexes and privileges will also be removed.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o It <strong>slower</strong> than TRUNCATE.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Operation cannot be rolled back.
+                                        </ul>
+                                    </p>
+                                    <ul><img src="DDL.png"></ul>
+                                    <p>
+                                        <br><strong>DML</strong></br>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Stands for <strong>Data Manipulation Language</strong>.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Manage the data stored in the database.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Not auto-committed.
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o Changes are <strong>not permanent.</strong>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                        o It is <strong>possible to roll back </strong>the operation.
+                                        </ul>
+                                    </p>
+                                    <ul>
+                                    <img src="DML.png">
+                                    </ul>
+                                    <p>
+                                       <br><strong>TCL</strong></br>
+                                    </p>
+                                        <ul>
+                                        <li>
+                                             To <strong>manage transactions </strong>in the database
+                                        </li>
+                                    </ul>
+                                    <ul><img src="TCL.png"></ul>
+                                    <p>
+                                        <strong>DCL</strong>
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            § A syntax similar to a computer programming language used to<strong>control access to data stored </strong>in a database (<strong>Authorization</strong>)
+                                        </ul>
+                                    </p>
+                                    <ul><img src="DCL.png"></ul>
+                                     
+                        </div>
+                        <div data-role="footer">
+                                <div data-role="navbar">
+                                    <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#introsql">Introduction of SQL</a></li>
+                                    <li><a href="#datatype">Data Type SQL</a></li>
+                                    <li><a href="#typesql">Type Of SQL</a></li>
+                                    <li><a href="#function">Function Of SQL</a></li>
+                                    <li><a href="#question1">Quiz</a></li>
+                                    <li><a href="#congrats">Congrats</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div data-role="page" id="function">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <h3 align="center">
+                                Functions SQL
+                            </h3>
+                                <p> <strong>ADVANCE</strong> </p>
+                                <ul><img src="Function1.png"></ul>
+                                <ul><img src="Function2.png"></ul>
+                                <p> <br><strong>Aggregate</strong></br> </p>
+                                <ul><img src="Function.png"></ul>
+                        </div>
+                        <div data-role="footer">
+                            <div data-role="navbar">
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#introsql">Introduction of SQL</a></li>
+                                    <li><a href="#datatype">Data Type SQL</a></li>
+                                    <li><a href="#typesql">Type Of SQL</a></li>
+                                    <li><a href="#function">Function Of SQL</a></li>
+                                    <li><a href="#question1">Quiz</a></li>
+                                    <li><a href="#congrats">Congrats</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+        
+                    <div data-role="page" id="question1">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <h3 align="center">QUIZ</h3>
+                                <p>
+                                    1. What Structured Query Language (SQL) used?
+                                </p>
+                                <label><input type="radio" onclick="semak('salah', '#question2')"> 
+                                    A. To stored data in database</label>
+                                <label><input type="radio" onclick="semak('betul', '#question2')">
+                                    B. To create, maintain and retrieve in database</label>
+                                <label><input type="radio" onclick="semak('salah', '#question2')">
+                                    C. To create database object in the database</label>
+                                <label><input type="radio" onclick="semak('salah', '#question2')">
+                                    D. To manage transaction in the database</label>
+                        </div>
+                    </div>
+
+                    <div data-role="page" id="question2">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <h3 align="center">QUIZ</h3>
+                                <p>
+                                    2. Which one the type of Data Definition Language (DDL)?
+                                </p>
+                                <label><input type="radio" onclick="semak('betul', '#question3')">
+                                    A. CREATE</label>
+                                <label><input type="radio" onclick="semak('salah', '#question3')">
+                                    B. BEGIN</label>
+                                <label><input type="radio" onclick="semak('salah', '#question3')">
+                                    C. INSERT</label>
+                                <label><input type="radio" onclick="semak('salah', '#question3')">
+                                    D. UPDATE</label>
+                        </div>
+                    </div>
+
+                    <div data-role="page" id="question3">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <h3 align="center">QUIZ</h3>
+                                <p>
+                                    3. In Structured Query Language (SQL), Data Control Language (DCL) use
+                                        command for
+                                </p>
+                                <label><input type="radio" onclick="semak('salah', '#question4')">
+                                    A. Manage Transaction</label>
+                                <label><input type="radio" onclick="semak('salah', '#question4')">
+                                    B. Querying and modify data</label>
+                                <label><input type="radio" onclick="semak('betul', '#question4')">
+                                    C. Security permission</label>
+                                <label><input type="radio" onclick="semak('salah', '#question4')">
+                                    D. Stored data</label>
+                        </div>
+                    </div>
+
+                    <div data-role="page" id="question4">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <p>
+                                4. SQL function has some command can combine, Which command can be
+                                   combined?
+                            </p>
+                            <label><input type="radio" onclick="semak('salah', '#question5')">
+                                A. Where and When</label>
+                            <label><input type="radio" onclick="semak('salah', '#question5')">
+                                B. Group by and Order by</label>
+                            <label><input type="radio" onclick="semak('salah', '#question5')">
+                                C. Wildcard</label>
+                            <label><input type="radio" onclick="semak('betul', '#question5')">
+                                D. And, or, not</label>
+                        </div>
+                    </div>
+
+                    <div data-role="page" id="question5">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <p>
+                                5. Which the following statement is true about REVOKE?
+                            </p>
+                            <label><input type="radio" onclick="semak('salah'), '#question6'">
+                                A. Used to provide access to users</label>
+                            <label><input type="radio" onclick="semak('salah', '#question6')">
+                                B. Used to control access to data stored</label>
+                            <label><input type="radio" onclick="semak('salah', '#question6')">
+                                C. Used to manage the data in database</label>
+                            <label><input type="radio" onclick="semak('betul', '#question6')">
+                                D. Used to take back the access privileges from the users</label>
+                        </div>
+                    </div>
+
+                    <div data-role="page" id="question6">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <p>
+                                6. Which Structured Query Language (SQL) statement is used to insert new
+                                    data in a database?
+                            </p>
+                            <label><input type="radio" onclick="semak('salah', '#question7')">
+                                A. INSERT</label>
+                            <label><input type="radio" onclick="semak('salah', '#question7')">
+                                B. ADD INTO</label>
+                            <label><input type="radio" onclick="semak('betul', '#question7')">
+                                C. INSERT INTO</label>
+                            <label><input type="radio" onclick="semak('salah', '#question7')">
+                                D. INSERT NEW</label>
+                        </div>
+                    </div>
+
+                    <div data-role="page" id="question7">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <p>
+                                7. With Structured Query Language (SQL), how do you select all the records
+                                    from a table named "Persons" where the value of the column "FirstName" is
+                                    "Peter"?
+                            </p>
+                            <label><input type="radio" onclick="semak('salah', '#question8')">
+                                A. SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'</label>
+                            <label><input type="radio" onclick="semak('betul', '#question8')">
+                                B. SELECT * FROM Persons WHERE FirstName=’Peter’</label>
+                            <label><input type="radio" onclick="semak('salah', '#question8')">
+                                C. SELECT * FROM Persons WHERE FirstName&lt;&gt;'Peter'</label>
+                            <label><input type="radio" onclick="semak('salah', '#question8')">
+                                D. SELECT [all] FROM Persons WHERE FirstName='Peter'</label>
+                        </div>
+                    </div>
+
+                    <div data-role="page" id="question8">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <p>
+                                8. Consider the following schema
+                            </p>
+                            <div>
+                            <p>
+                                <font face="Courier New">STUDENTS(student_code, first_name, last_name, email,</font>
+                            </p>
+                            <p>
+                                <font face="Courier New">phone_no, date_of_birth, honours_subject,</font>
+                            </p>
+                            <p>
+                                <font face="Courier New">percentage_of_marks);</font>
+                            </p>
+                            </div>
+                            <p>
+                                Which of the following query would display names of all the students whose
+                                honours subject is English and percentage of marks more than 80, or honours
+                                subject is Spanish and percentage of marks more than 80?
+                            </p>
+                            <label><input type="radio" onclick="semak('betul', '#question9')">
+                                A. select first_name, last name from students where (honours_subject =
+                                “English” or honours_subject = “Spanish” ) and percentage_of_marks &gt; 80;</label>
+                            <label><input type="radio" onclick="semak('salah', '#question9')">
+                                B. select first_name, last name from students where honours_subject =
+                                “English” or honours_subject = “Spanish” and percentage_of_marks &gt; 80;</label>
+                            <label><input type="radio" onclick="semak('salah', '#question9')">
+                                C. select first_name, last name from students where (honours_subject =
+                                “English” or honours_subject = “Spanish” and percentage_of_marks &gt; 80);</label>
+                            <label><input type="radio" onclick="semak('salah', '#question9')">
+                                D. select first_name, last name from students where (honours_subject =
+                                “English”) or honours_subject = “Spanish” and percentage_of_marks &gt; 80;</label>
+                        </div>
+                    </div>
+
+                    <div data-role="page" id="question9">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <p>
+                                9. Which of the following code will successfully delete the table    <strong>LOCATIONS</strong> from the <strong>database</strong>?
+                            </p>
+                            <label><input type="radio" onclick="semak('betul', '#question10')">
+                                A. DROP TABLE locations;</label>
+                            <label><input type="radio" onclick="semak('salah', '#question10')">
+                                B. DELETE TABLE locations;</label>
+                            <label><input type="radio" onclick="semak('salah', '#question10')">
+                                C. TRUNCATE TABLE locations;</label>
+                            <label><input type="radio" onclick="semak('salah', '#question10')">
+                                D. ALTER TABLE locations;</label>
+                        </div>
+                    </div>
+
+                    <div data-role="page" id="question10">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2>SQL</h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <p>
+                                10. Which Structured Query Language (SQL) keyword is used to sort the
+                                    result-set?
+                            </p>
+                            <label><input type="radio" onclick="semak('salah', '#congrats')">
+                                A. ORDER</label>
+                            <label><input type="radio" onclick="semak('salah', '#congrats')">
+                                B. SORT</label>
+                            <label><input type="radio" onclick="semak('betul', '#congrats')">
+                                C. ORDER BY</label>
+                            <label><input type="radio" onclick="semak('salah', '#congrats')">
+                                D. SORT BY</label>
+                        </div>
+                    </div>
+
+                    <div data-role="page" id="congrats">
+                        <div data-role="header">
+                            <h1>DATABASE DESIGN</h1>
+                            <h2></h2>
+                        </div>
+                        <div data-role="main" class="ui-content">
+                            <p>Congrats You have been finish answers the quiz</p>
+                            <p>Correct = <span id="jumlahbetul"></span></p>
+                            <p>Wrong = <span id="jumlahsalah"></span></p>
+                        </div>
+                        <div data-role="footer">
+                            Thank You
+                        </div>
+                    </div>
+
+    <script src="project.js"></script>
+</body>
+</html>
